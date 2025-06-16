@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -16,8 +20,9 @@ body {
 
 #product-overview {
   background: #ff1b68;
-  width: 500px;
-  height: 100%;
+  width: 100%;
+  height: 500px;
+  padding: 10px;
 }
 
 #product-overview h1 {
@@ -33,4 +38,45 @@ body {
 
 h1 {
   font-family: sans-serif;
+}
+
+.main-header {
+  width: 100%;
+  background: #2ddf5c;
+  padding: 8px 16px;
+}
+
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header_brand {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 74px);
+  vertical-align: middle;
+}
+
+.main-nav_items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav_item {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.main-nav_item a {
+  text-decoration: none;
+  color: #0e4f1f;
 }
