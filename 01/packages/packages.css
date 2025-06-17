@@ -42,8 +42,15 @@ main {
   background: rgba(213, 255, 220, 0.95);
 }
 
+.clearfix {
+  clear: both;
+}
+
 .contents_mid {
   background-color: rgba(234, 252, 237, 0.95);
+  float: right;
+  border-right: none;
+  border-left: 4px solid #0e4f1f;
 }
 
 .contents_bot {
