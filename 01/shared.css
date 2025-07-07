@@ -201,3 +201,29 @@ body {
 .open {
   display: block !important;
 }
+
+.main-footer__link {
+  display: block;
+  margin: 1rem 0;
+}
+
+@media (min-width: 40rem) {
+  .toggle-button {
+    display: none;
+  }
+
+  .main-header_brand {
+    height: 2.5rem;
+  }
+
+  .main-nav {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 40rem) {
+  .main-footer__link {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+}
